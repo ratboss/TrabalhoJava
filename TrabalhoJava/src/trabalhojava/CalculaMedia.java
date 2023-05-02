@@ -124,6 +124,8 @@ public class CalculaMedia {
         this.setTrilha(ler.nextFloat());
         System.out.println("Digite a nota de prova");
         this.setProva(ler.nextDouble());
+        System.out.println("Digite a nota do avaliativa");
+        this.setAvaliativa(ler.nextFloat());
 
     }
 
@@ -149,6 +151,8 @@ public class CalculaMedia {
         this.setProva(ler.nextDouble());
         System.out.println("Digite a nota do simulado");
         this.setSimulado(ler.nextFloat());
+        System.out.println("Digite a nota do avaliativa");
+        this.setAvaliativa(ler.nextFloat());
 
     }
     
